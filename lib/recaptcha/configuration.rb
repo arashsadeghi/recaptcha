@@ -31,7 +31,7 @@ module Recaptcha
   #
   class Configuration
     DEFAULTS = {
-      'server_url' => 'https://www.recaptcha.net/recaptcha/api.js',
+      'server_url' => 'https://www.recaptcha.net/recaptcha/api.js?hl=fa&',
       'verify_url' => 'https://www.recaptcha.net/recaptcha/api/siteverify'
     }.freeze
 
